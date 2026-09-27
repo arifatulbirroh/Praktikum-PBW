@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: calibri, sans-serif;
+  background-color: #4e393a;
+}
+
+header {
+  background-color: #343a40;
+  color: rgb(200, 200, 227);
+  padding: 25px 50px;
+}
+
+header h1 {
+  margin: 0 0 15px;
+}
+
+nav a {
+  color: rgba(6, 237, 233, 0.505);
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #f7f3e8;
+}
+
+.hero,
+.position,
+.floating,
+.shadow {
+  width: 90%;
+  border-radius: 50px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(250, 248, 250, 0.943);
+}
+
+button:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+.position {
+  position: relative;
+  height: 250px;
+}
+
+.static {
+  position: static;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  width: 150px;
+  padding: 15px;
+  background-color: #be9393;
+}
+
+.absolute {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 15px;
+  background-color: #be9393;
+}
+
+.float-left {
+  float: left;
+  width: 220px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #be9393;
+}
+
+.float-right {
+  float: right;
+  width: 220px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #be9393;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.shadow-box {
+  width: 200px;
+  padding: 20px;
+  background-color: #be9393;
+  box-shadow: 5px 5px 15px gray;
+}
+
+footer {
+  clear: both;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(1, 1, 26);
+  color: white;
+}
